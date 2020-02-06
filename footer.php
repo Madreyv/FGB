@@ -6,7 +6,7 @@
             <div class="footerImg">
               <img src="img/SmallLogo.png">
             </div>
-            <figcaption>
+            <figcaption class="footerAdress">
               <p class="footerParagrath">Av. Deus Dará, nº666, Jardim do Edem, Macaé.</p>
               <p>(22)9 9999-9999</p>
             </figcaption>

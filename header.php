@@ -72,8 +72,36 @@
           </div>
         </div>
         <div class="col-md-08">
-          <div class="">
+          <div>
             <ul class="menu">
+              <li class="menuItem"><a href="fgb.html.php">Home</a></li>
+              <li class="menuItem"><a href="services.html.php">Serviços</a></li>
+              <li class="menuItem"><a href="sobre.html.php">Sobre</a></li>
+              <li class="menuItem"><a href="contato.php">Contato</a></li>
+            </ul>
+            <div class="">
+              
+              <nav class="navbar">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation"> 
+                  <span class="icon-bar"></span> 
+                  <span class="icon-bar"></span> 
+                  <span class="icon-bar"></span> 
+                </button>
+              </nav>
+            </div>
+           <!-- <div class="collapse" id="navbarToggleExternalContent" >
+                <div class="bg-dark p-4">
+                  <h4 class="text-white">Collapsed content</h4>
+                  <span class="text-muted">Toggleable via the navbar brand.</span>
+                </div>
+              </div>-->
+          </div>
+        </div>
+      </div>
+      <div class="row collapse" id="navbarToggleExternalContent">
+        <div class="col-md-12 mobileMenu" >
+          <div class="">
+            <ul class="">
               <li class="menuItem"><a href="fgb.html.php">Home</a></li>
               <li class="menuItem"><a href="services.html.php">Serviços</a></li>
               <li class="menuItem"><a href="sobre.html.php">Sobre</a></li>
@@ -83,5 +111,8 @@
         </div>
       </div>
     </div>
+  </section>
+
+  <section
   </section>
   </header>

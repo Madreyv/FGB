@@ -1,3 +1,7 @@
+ul{
+	list-style-type: none;
+}
+
 .quadrado{
 	height: 50px;
 	width: 70px;
@@ -400,17 +404,22 @@ footer{
 
 }
 
-#servicoImg1{
+.servicoImg1{
 	background-image: url(img/support.jpg);
 }
 
-#servicoImg2{
+.servicoImg2{
 	background-image: url(img/seo.jpg);
 }
 
-#servicoImg3{
+.servicoImg3{
 	background-image: url(img/network.jpg);
 }
+
+.mobileOnly{
+	display: none;
+}
+
 
 @media only screen and (max-width: 1274px){
 	
@@ -430,13 +439,115 @@ footer{
 	
 	.menuItem {
 	    margin: 14% 3% 3%;
-	}	
+	}
+
+	.slider{
+		height: 400px;
+	}
+
+	.slideTextContent{
+		right: 15%;
+	    top: 10%;
+	}
+
+	.midText h5, .midText h4{
+		font-size: 16px;
+	}
+
+	.workerPic{
+		width: 350px;
+	}
+
+	.contactArea {
+    	margin-top: 0;
+	}
+
+	.footerImg{
+		display: inline-block;
+    	position: absolute;
+	}
+
+	.footerImg img {
+	    width: 25%;
+	}
+
+	.footerAdress{
+		float: right;
+	    display: inline-block;
+	    margin-right: 20%;
+	    margin-top: 5%;
+	}
+
+	.footerLinks {
+	   display: none;
+	}
+
+	.mobileOnly{
+		display: block;
+	}
 }
 
 @media only screen and (max-width: 781px){
+
+	.navbar-toggle {
+		border: 1px solid #143856;
+		border-radius: 0;
+		background: #143856;
+	}
+
+	.icon-bar {
+	    display: block;
+	    width: 22px;
+	    height: 2px;
+	    margin: 6px;
+	    border-radius: 1px;
+	    background-color: white;
+	}
+
+	.navbar{
+		position: absolute;
+		right: 0;
+	    top: 55%;
+	}
 	
 	.menuItem {
-	    margin: 14% 2% 3%;
-	}	
+	    margin: 0;
+	    float: none;
+	}
+
+	.menuItem a{
+		color: white;
+	}
+
+
+	.menu{
+		display: none;
+	}
+
+	.mobileMenu{
+		background-color: #143856;
+		text-align: center;
+	}
+
+	.buttons {
+	    margin: auto 5%;
+	}
+
+	.noMobile{
+		display: none;
+	}
 }
+
+@media only screen and (max-width: 781px){
+	.footerAdress{
+		margin-right: 0;
+	}
+
+}
+
+
+
+
+
+
 
